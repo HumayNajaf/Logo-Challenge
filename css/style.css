@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: rgb(77, 65, 153);
+}
+header {
+    background-color: rgb(44, 37, 90);
+    width: 99vw;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+}
+.logo {
+    position: relative;
+}
+.first-ring, .second-ring {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(44, 37, 90);
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+.first-ring {
+    transform: rotate(135deg);
+    position: relative;
+    top: 50px;
+}
+.second-ring {
+transform: rotate(45deg);
+mix-blend-mode: lighten;
+position: relative;
+top: 10px;
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: rgb(44, 37, 90);
+    border: 5px solid #fff;
+    position: absolute;
+    top: 60px;
+    left: 45px;
+}
+h1 {
+    font-family: monospace;
+    font-size: 48px;
+    color: #fff;
+}
